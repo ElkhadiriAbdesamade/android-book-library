@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bookexploring">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:layout_marginTop="10dp"
+        android:textSize="50sp"
+        android:fontFamily="@font/bold"
+        android:textColor="@color/light_gray"
+        />
+
+
+
+    <Button
+        android:id="@+id/btnAdd_AdminActivity"
+        android:layout_width="300dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/regular"
+        android:text="Add Livre"
+        android:textAllCaps="false"
+        android:textColor="@color/gray"
+        android:textSize="24sp"
+    />
+    <EditText
+        android:id="@+id/txttitremod_AdminActivity"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Tapez Titre de livre tu va Mdif"
+        android:background="@drawable/input_field"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/btnModif_AdminActivity"
+        android:layout_width="300dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/regular"
+        android:text="Modifier Livre"
+        android:textAllCaps="false"
+        android:textColor="@color/gray"
+        android:textSize="24sp"
+        />
+    <EditText
+        android:id="@+id/txttitredel_AdminActivity"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Tapez Titre de livre tu va Supp"
+        android:background="@drawable/input_field"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/btndele_AdminActivity"
+        android:layout_width="300dp"
+        android:layout_height="53dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/regular"
+        android:layout_marginBottom="30dp"
+        android:text="Delete Livre"
+        android:textAllCaps="false"
+        android:textColor="@color/gray"
+        android:textSize="24sp"
+        />
+    <Button
+        android:id="@+id/btnvoirlivres_AdminActivity"
+        android:layout_width="300dp"
+        android:layout_height="53dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/regular"
+        android:text="Voire Livres"
+        android:textAllCaps="false"
+        android:textColor="@color/gray"
+        android:textSize="24sp"
+        />
+
+</LinearLayout>
